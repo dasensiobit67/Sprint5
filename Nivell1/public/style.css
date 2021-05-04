@@ -1,0 +1,104 @@
+/*---------------Chat section----------*/
+body{
+    display: grid;
+    background-color: rgb(130, 88, 199);
+}
+body > header{
+    color: wheat;
+    text-align: center;
+    background-color:rgb(58, 58, 126);
+}
+
+body nav{
+    border:1px solid black;
+    padding:5px;    
+}
+
+body nav #rooms{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} 
+/*body nav #rooms li{
+    /*float: left;
+    /*background-color: blue;
+    text-align: center;
+    padding: 5px 15px;
+} */ 
+
+body nav #rooms li #logout{
+    float: right ;
+    color: red;
+    padding: 5px 15px;
+}
+
+
+body nav #rooms li a{
+    float: left;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+body nav #rooms li a:hover{
+    background-color: rgb(58, 58, 126);;
+}
+body .messagelist #conversation{
+    border:1px solid black;
+    height:350px;
+    width: 100%;
+    overflow:scroll-y;
+    padding:10px;
+}
+
+body .messagesend{
+    border:1px solid black;
+    text-align: center;    
+}
+
+body > footer{
+    color:wheat;
+    text-align: center;
+    background-color:rgb(58, 58, 126);;
+}
+
+body .loginform{
+    border:1px solid black;
+    height:350px;
+    width: 100%;
+    text-align: center;
+}
+
+/*------------Login section---------*/
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.login-form h1 {
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+}
+.login-form input[type="password"],
+.login-form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    box-sizing:border-box;
+}
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
