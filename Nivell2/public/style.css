@@ -1,0 +1,59 @@
+body{
+    display: grid;
+    background-color: rgb(130, 88, 199);
+}
+body > header{
+    color: wheat;
+    text-align: center;
+    background-color:rgb(58, 58, 126);
+}
+
+body nav{
+    border:1px solid black;
+    padding:5px;    
+}
+
+body nav #rooms{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} 
+body nav #rooms li{
+    float: left;
+    color: red;
+    text-align: center;
+    padding: 5px 15px;
+}  
+
+
+body nav #rooms li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+body nav #rooms li a:hover{
+    background-color: rgb(58, 58, 126);;
+}
+body .messagelist #conversation{
+    border:1px solid black;
+    height:350px;
+    width: 100%;
+    overflow:scroll-y;
+    padding:10px;
+}
+
+body .messagesend{
+    border:1px solid black;
+    text-align: center;    
+}
+
+body > footer{
+    color:wheat;
+    text-align: center;
+    background-color:rgb(58, 58, 126);;
+}
+

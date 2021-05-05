@@ -1,0 +1,23 @@
+{
+  "name": "chatOauth20",
+  "version": "1.0.0",
+  "description": "Chat con Socket.io y Google Oauth2.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "socket",
+    "oauth",
+    "google"
+  ],
+  "author": "Dani Asensio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "socket.io": "^4.0.1"
+  }
+}
